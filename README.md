@@ -111,7 +111,7 @@ sistema-chamados-ti/
 | Igor Fagundes Batista | A definir | Testes e validações |
 | Herica Franklin Ramalho | A definir | Documentação |
 | Vitor Hugo Benatti Pedrassolli | A definir | A definir |
-| Mateus Malezan Tasquetto | A definir | Cadastro de chamados |
+| Mateus Malezan Tasquetto | [@mateustasquetto](https://github.com/mateustasquetto) | Cadastro de chamados |
 | Rafael Pereira Caires Pires | [@rafaelcairess](https://github.com/rafaelcairess) | HTML, CSS e GitHub |
 | João Vitor Oliveira Goncalves | A definir | Status, prioridade e filtros |
 
