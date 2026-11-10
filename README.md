@@ -139,8 +139,7 @@ A divisão poderá ser ajustada conforme o desenvolvimento e a disponibilidade d
 - Mateus deve utilizar `#form-chamado` para o cadastro.
 - Sheila deve utilizar `#lista-chamados` e `#modelo-linha-chamado` para a listagem.
 - João deve utilizar `#busca-chamados`, `#filtro-status` e `#filtro-prioridade` para os filtros.
-- O arquivo `js/storage.js` centraliza o acesso ao `localStorage` e fornece `obterChamados()`.
-- Os filtros disparam o evento `chamados:filtrados` com a lista em `evento.detail.chamados`.
+- Os chamados ficam salvos no `localStorage` na chave `"chamados"`, como uma lista. Os filtros (`js/filtros.js`) disparam o evento `chamados:filtrados` no `document`, com a lista filtrada em `evento.detail.chamados`, e oferecem os rótulos `ROTULOS_STATUS` e `ROTULOS_PRIORIDADE` para os badges.
 - A edição deve utilizar `data-action="editar"` e `#cancelar-edicao`.
 - A exclusão deve utilizar `data-action="excluir"` e `#confirmacao-exclusao`.
 - Igor deve utilizar os campos com `required` e as mensagens `.form-field__error` para as validações.
