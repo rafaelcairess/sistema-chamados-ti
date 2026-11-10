@@ -108,12 +108,12 @@ sistema-chamados-ti/
 | --- | --- | --- |
 | Antonio Agricola Dorneles | A definir | A definir |
 | Sheila Cristina Zanin | [@sheilazanin-png](https://github.com/sheilazanin-png) | Listagem dos chamados |
-| Igor Fagundes Batista | A definir | Testes e validações |
+| Igor Fagundes Batista | [@IgorFagundesBatista](https://github.com/IgorFagundesBatista) | Testes e validações |
 | Herica Franklin Ramalho | A definir | Documentação |
 | Vitor Hugo Benatti Pedrassolli | A definir | A definir |
 | Mateus Malezan Tasquetto | [@mateustasquetto](https://github.com/mateustasquetto) | Cadastro de chamados |
 | Rafael Pereira Caires Pires | [@rafaelcairess](https://github.com/rafaelcairess) | HTML, CSS e GitHub |
-| João Vitor Oliveira Goncalves | A definir | Status, prioridade e filtros |
+| João Vitor Oliveira Goncalves | [@euJonh](https://github.com/euJonh) | Status, prioridade e filtros |
 
 As responsabilidades e os perfis do GitHub serão atualizados conforme os demais integrantes enviarem suas informações.
 
