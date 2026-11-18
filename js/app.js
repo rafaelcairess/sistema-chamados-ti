@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   const formChamado = document.getElementById("form-chamado");
   if (!formChamado) return;
@@ -35,12 +34,10 @@ document.addEventListener("DOMContentLoaded", () => {
     formChamado.reset();
     document.getElementById("id-chamado").value = "";
 
-    // Atualiza a listagem imediatamente utilizando a função global do filtros.js
     if (typeof aplicarFiltros === "function") {
       aplicarFiltros();
     }
 
-    // Dispara evento padrão no document para qualquer outro módulo que esteja ouvindo
     document.dispatchEvent(
       new CustomEvent("chamado:cadastrado", { detail: { chamado } })
     );
