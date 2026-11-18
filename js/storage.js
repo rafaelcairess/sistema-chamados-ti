@@ -1,4 +1,3 @@
-
 const CHAVE_CHAMADOS = "chamados";
 
 function obterChamados() {
