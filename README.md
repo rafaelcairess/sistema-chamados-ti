@@ -13,6 +13,10 @@ Aplicação web para registrar e acompanhar solicitações de suporte técnico.
 Projeto Integrador de **Boas Práticas de Desenvolvimento de Software**  
 Análise e Desenvolvimento de Sistemas — Senac
 
+<p>
+  <a href="https://rafaelcairess.github.io/sistema-chamados-ti/"><strong>🌐 Acessar aplicação publicada</strong></a>
+</p>
+
 </div>
 
 ## Sobre
