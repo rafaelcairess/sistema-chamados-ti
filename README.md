@@ -83,6 +83,10 @@ Depois, abra o arquivo `index.html` no navegador.
 
 Durante o desenvolvimento também pode ser utilizado um servidor local, como o Live Server do Visual Studio Code.
 
+A versão publicada para testes está disponível no GitHub Pages:
+
+https://rafaelcairess.github.io/sistema-chamados-ti/
+
 ## Estrutura
 
 A estrutura poderá mudar conforme o desenvolvimento avançar.
@@ -94,8 +98,9 @@ sistema-chamados-ti/
 │   └── style.css
 ├── js/
 │   ├── app.js
-│   ├── storage.js
-│   └── validation.js
+│   ├── filtros.js
+│   ├── listagem.js
+│   └── storage.js
 ├── assets/
 ├── docs/
 ├── CONTRIBUTING.md
@@ -136,9 +141,9 @@ A divisão poderá ser ajustada conforme o desenvolvimento e a disponibilidade d
 
 ## Integração entre as partes
 
-- Mateus deve utilizar `#form-chamado` para o cadastro.
-- Sheila deve utilizar `#lista-chamados` e `#modelo-linha-chamado` para a listagem.
-- João deve utilizar `#busca-chamados`, `#filtro-status` e `#filtro-prioridade` para os filtros.
+- O cadastro utiliza `#form-chamado` e salva os registros por meio de `js/app.js` e `js/storage.js`.
+- A listagem utiliza `#lista-chamados` e `#modelo-linha-chamado` por meio de `js/listagem.js`.
+- Os filtros utilizam `#busca-chamados`, `#filtro-status` e `#filtro-prioridade` por meio de `js/filtros.js`.
 - Os chamados ficam salvos no `localStorage` na chave `"chamados"`, como uma lista. Os filtros (`js/filtros.js`) disparam o evento `chamados:filtrados` no `document`, com a lista filtrada em `evento.detail.chamados`, e oferecem os rótulos `ROTULOS_STATUS` e `ROTULOS_PRIORIDADE` para os badges.
 - A edição deve utilizar `data-action="editar"` e `#cancelar-edicao`.
 - A exclusão deve utilizar `data-action="excluir"` e `#confirmacao-exclusao`.
@@ -158,11 +163,11 @@ A divisão poderá ser ajustada conforme o desenvolvimento e a disponibilidade d
 
 ### Etapa 2
 
-- [ ] Estrutura HTML
-- [ ] Interface CSS
-- [ ] Cadastro de chamados
-- [ ] Armazenamento com LocalStorage
-- [ ] Listagem dos chamados
+- [x] Estrutura HTML
+- [x] Interface CSS
+- [x] Cadastro de chamados
+- [x] Armazenamento com LocalStorage
+- [x] Listagem dos chamados
 - [ ] Edição e exclusão
 - [ ] Status, prioridade e filtros
 - [ ] Validações
